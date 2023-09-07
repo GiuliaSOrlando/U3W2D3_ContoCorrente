@@ -2,7 +2,7 @@ SELECT COUNT(*) AS NumeroOrdini FROM Orders
 
 SELECT COUNT(*) AS NumeroClienti FROM Customers;
 
-SELECT COUNT(*) AS NumeroClientiLondinesi FROM Customers WHERE City = ‘London;
+SELECT COUNT(*) AS NumeroClientiLondinesi FROM Customers WHERE City = ‘London';
 
 SELECT AVG(Freight) AS MediaCostoTrasporto FROM Orders;
 
